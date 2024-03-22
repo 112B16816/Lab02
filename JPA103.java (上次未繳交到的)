@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class JPA{
+ public static void main (String[] args){
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Please input:");
+  int a,b,c;
+  a=sc.nextInt();
+  b=sc.nextInt();
+  c=sc.nextInt();
+  System.out.printf("Average: %.2f",((double)(a+b+c)/3));
+ }
+}
